@@ -12,13 +12,21 @@ Nitish Kumar Gupta
 24-04-2021
 
 Research :
--> We referred to a paper from the International Journal of Scientific and Research Publications i.e., 
+•	We referred to a paper from the International Journal of Scientific and Research Publications i.e., 
 Fatin Najwa Binti Abdullah Sani, Hani Malini binti Majek, Umairah binti Ahmad Khairudin, Abdul Rahman bin Ahmad Dahlan, e-Bookstore: Opening Door to the Garden of Knowledge, IJSRP, Volume 7, Issue 6, June 2017
 
+•	We also researched on how rent facility works, as we wanted to provide rent feature in our website
+
 Survey :
--> We did a survey on the following topics,
-Do you have any experience in selling second-hand books?    Yes:- 52.78% , No:- 47.22%
-Do you have any experience in buying second-hand books?    Yes:- 75%, No:- 25%
-Do you think that process of buying books or other things from the internet is easy or not?   Easy:- 80.56%, Hard:- 19.44%
-If there is a website especially for our community for selling and buying second-hand books, do you think you will use it?  Yes:- 69.44%, Maybe:- 25%, No:- 5.56%
-Have you ever donated books?   Yes:- 61.11%, No:- 38.99%
+We did a survey on the following topics,
+• Do you have any experience in selling second-hand books?    Yes:- 52.78% , No:- 47.22%
+• Do you have any experience in buying second-hand books?    Yes:- 75%, No:- 25%
+• Do you think that process of buying books or other things from the internet is easy or not?   Easy:- 80.56%, Hard:- 19.44%
+• If there is a website especially for our community for selling and buying second-hand books, do you think you will use it?  Yes:- 69.44%, Maybe:- 25%, No:- 5.56%
+• Have you ever donated books?   Yes:- 61.11%, No:- 38.99%
+
+
+Design:
+
+•	We designed a flowchart to show how our overall website works.
+•	We also designed a flow diagram on how the rent facility works based on what we understood from the research
