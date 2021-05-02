@@ -1,0 +1,19 @@
+Shipping :
+      
+In order to implement the shipping feature in our website, we carried out a study, and based on it we tried to design a flow, diagram which is as shipping1.png and shipping2.png
+
+
+
+Web Hosting Service :
+
+->We researched different platforms which provide hosting services in order to purchase the suitable one for our project. 
+
+->Finally, we contacted the customer care of Godady service providers and got to know various plans. After some research on them we decided to go for one of the plans.
+
+->That particular plan has the following features :
+
+75 GB SSD Storage: Our servers have high-performance drives for both files and databases, so our site loads incredibly fast.
+Ideal for up to 100K monthly visitors: Our plan is designed to provide peak performance and stability within the ideal range of visitors and bandwidth usage. For sites that exceed the suggested visits per month, we will notify us of the need to upgrade our plan.
+Automatic daily malware scans: Daily scans are performed via the automatically installed plugin.
+Backup protection: Enable 90-day backups with the option to schedule, create on-demand, and/or download them.
+SSL Certificate for the duration of hosting: An SSL certificate is included free for the life of the hosting plan. Our hassle-free certificates are automatically installed, validated, and renewed. The strong 2048-bit encryption will ensure all transactions are secure.
