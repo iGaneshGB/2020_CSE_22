@@ -12,8 +12,12 @@ Web Hosting Service :
 
 The features present in our plan are :
 
-75 GB SSD Storage: Our servers have high-performance drives for both files and databases, so our site loads incredibly fast.
-Ideal for up to 100K monthly visitors: Our plan is designed to provide peak performance and stability within the ideal range of visitors and bandwidth usage. For sites that exceed the suggested visits per month, we will notify us of the need to upgrade our plan.
-Automatic daily malware scans: Daily scans are performed via the automatically installed plugin.
-Backup protection: Enable 90-day backups with the option to schedule, create on-demand, and/or download them.
-SSL Certificate for the duration of hosting: An SSL certificate is included free for the life of the hosting plan. Our hassle-free certificates are automatically installed, validated, and renewed. The strong 2048-bit encryption will ensure all transactions are secure.
+      • 75 GB SSD Storage: Our servers have high-performance drives for both files and databases, so our site loads incredibly fast.
+
+      • Ideal for up to 100K monthly visitors: Our plan is designed to provide peak performance and stability within the ideal range of visitors and bandwidth usage. For sites                                                    that exceed the suggested visits per month, we will notify us of the need to upgrade our plan.
+
+      • Automatic daily malware scans: Daily scans are performed via the automatically installed plugin.
+
+      • Backup protection: Enable 90-day backups with the option to schedule, create on-demand, and/or download them.
+
+      • SSL Certificate for the duration of hosting: An SSL certificate is included free for the life of the hosting plan. Our hassle-free certificates are automatically                                                                installed, validated, and renewed. The strong 2048-bit encryption will ensure all transactions are secure.
