@@ -6,11 +6,11 @@ In order to implement the shipping feature in our website, we carried out a stud
 
 Web Hosting Service :
 
-->We researched different platforms which provide hosting services in order to purchase the suitable one for our project. 
+->We researched different platforms which provide hosting services (Godaddy, Hostinger, Bluehost, NameCheap, etc.) in order to purchase the suitable one for our project. 
 
-->Finally, we contacted the customer care of Godady service providers and got to know various plans. After some research on them we decided to go for one of the plans.
+->Finally, we contacted the customer care of Godaddy service providers and got to know various plans. After some research on them, we decided to go for one of the plans.
 
-->That particular plan has the following features :
+The features present in our plan are :
 
 75 GB SSD Storage: Our servers have high-performance drives for both files and databases, so our site loads incredibly fast.
 Ideal for up to 100K monthly visitors: Our plan is designed to provide peak performance and stability within the ideal range of visitors and bandwidth usage. For sites that exceed the suggested visits per month, we will notify us of the need to upgrade our plan.
