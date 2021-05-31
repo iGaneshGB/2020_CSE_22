@@ -1,0 +1,65 @@
+header {
+    display: block;
+body {
+    background-image: none;
+    background-color: #e3e3e3;
+}
+body {
+    color: var(--color);
+}
+}
+body,.footer-widgets-area, .sub-menu {
+    background-color: var(--has-background, var(--background-color));
+    background-image: var(--has-background, var(--overlay-color, none), var(--background-image));
+    background-size: var(--has-background, var(--background-size));
+    background-repeat: var(--has-background, var(--background-repeat));
+    background-position: var(--has-background, var(--background-position));
+    background-attachment: var(--has-background, var(--background-attachment));
+}
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: var(--vertical-alignment, center);
+    text-align: var(--alignment, center);
+    position: relative;
+    z-index: 2;
+    padding: var(--container-padding, 50px 0);
+    min-height: var(--min-height, 250px);
+}
+body, p, h1, h2, h3, h4, h5, h6, em, ol, ul, li, tr, th, td, dl, img, ins, sub, sup, big, cite, code, form, small, label, table, figure, button, legend, strike, address, caption, fieldset, blockquote {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: inherit;
+    text-align: inherit;
+    line-height: inherit;
+}
+@media (min-width: 690px)
+:root {
+    --container-width: calc(90vw - var(--frame-size, 0px) * 2);
+}
+
+html, h1, h2, h3, h4, h5, h6, pre, kbd, code, samp, label, figcaption, blockquote, blockquote p, .price, .menu a) {
+    font-family: var(--fontFamily);
+    font-size: var(--fontSize);
+    font-weight: var(--fontWeight);
+    font-style: var(--fontStyle, inherit);
+    line-height: var(--lineHeight);
+    letter-spacing: var(--letterSpacing);
+    text-transform: var(--textTransform);
+    -webkit-text-decoration: var(--textDecoration);
+    text-decoration: var(--textDecoration);
+}
+html {
+    scroll-behavior: smooth;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body ::selection {
+    color: var(--selectionTextColor);
+    background-color: var(--selectionBackgroundColor);
+}
