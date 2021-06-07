@@ -1,0 +1,127 @@
+.elementor-kit-1008 {
+    --e-global-color-8afbd85: #B89F5D;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+}
+[data-header*='sticky'] {
+    --scroll-margin-top-offset: calc( ( var(--headerStickyHeight, var(--headerHeight, 0px)) * var(--has-transparent-header) * (var(--stickyShrink, 100) / 100) ) + var(--headerStickyHeight, var(--headerHeight, 0px)) * (1 - var(--has-transparent-header)) );
+}
+body {
+    --background-image: none;
+    --background-color: #e3e3e3;
+}
+body, .ct-panel, .ct-footer, [data-row], [data-block], .ct-floating-bar, .ct-account-form, .ct-trending-block, .ct-panel>section, .footer-widgets-area, .ct-comments-container, .ct-related-posts-container, .hero-section[data-type='type-2'], [class*="ct-container"]>article, [class*='ct-mega-menu']>.sub-menu, [class*="tutor-course"] .tutor-col-8 {
+    background-color: var(--has-background, var(--background-color));
+    background-image: var(--has-background, var(--overlay-color, none), var(--background-image));
+    background-size: var(--has-background, var(--background-size));
+    background-repeat: var(--has-background, var(--background-repeat));
+    background-position: var(--has-background, var(--background-position));
+    background-attachment: var(--has-background, var(--background-attachment));
+    --overlay-color: linear-gradient(var(--overlay), var(--overlay));
+}
+body {
+    color: var(--color);
+}
+body, p, h1, h2, h3, h4, h5, h6, em, ol, ul, li, tr, th, td, dl, img, ins, sub, sup, big, cite, code, form, small, label, table, figure, button, legend, strike, address, caption, fieldset, blockquote {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: inherit;
+    text-align: inherit;
+    line-height: inherit;
+}
+body {
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+#main-container .site-main {
+    flex-grow: 1;
+}
+[data-footer*='reveal'] .site-main {
+    z-index: 1;
+    box-shadow: var(--box-shadow);
+}
+[data-footer*='reveal'] #main-container, [data-footer*='reveal'] .site-main {
+    background: inherit;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+main {
+    display: block;
+}
+media="(max-width: 999.98px)"
+[data-header*="type-1"] {
+    --headerHeight: 70px;
+    --headerStickyHeight: 0px;
+}
+[data-header*="type-1"] {
+    --headerHeight: 125px;
+    --headerStickyHeight: 45px;
+}
+:root {
+    --fontFamily: Roboto, Sans-Serif;
+    --fontWeight: 400;
+    --textTransform: capitalize;
+    --textDecoration: none;
+    --fontSize: 17px;
+    --lineHeight: 1.65;
+    --letterSpacing: 0em;
+    --buttonFontFamily: Roboto, Sans-Serif;
+    --buttonFontWeight: 500;
+    --buttonFontSize: 15px;
+    --star-rating-initial-color: #b89f5d;
+
+@media (min-width: 690px)
+:root {
+    --container-width: calc(90vw - var(--frame-size, 0px) * 2);
+}
+}
+:root {
+    --default-editor: var(--true);
+    --border: none;
+    --transition: all 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    --listIndent: 2.5em;
+    --listItemSpacing: 0.3em;
+    --true: initial;
+    --false: "";
+    --has-background: var(--true);
+    --has-link-decoration: var(--true);
+    --has-transparent-header: 0;
+}
+html, h1, h2, h3, h4, h5, h6, pre, kbd, code, samp, label, figcaption, blockquote, blockquote p, .price, .menu a, .ct-label, .site-title, .entry-meta, .widget-title, .contact-info, .ct-item-title, .ct-menu-badge, .entry-excerpt, .ct-post-title, .ct-breadcrumbs, .ct-header-text, .site-description, .page-description, .mobile-menu ul a, .comment-reply-title, .ct-footer-copyright, .ct-language-switcher, .entry-summary .price, .woocommerce-tabs .tabs, .ct-language-switcher ul[data-placement], .ct-widget>*:not(.widget-title) {
+    font-family: var(--fontFamily);
+    font-size: var(--fontSize);
+    font-weight: var(--fontWeight);
+    font-style: var(--fontStyle, inherit);
+    line-height: var(--lineHeight);
+    letter-spacing: var(--letterSpacing);
+    text-transform: var(--textTransform);
+    -webkit-text-decoration: var(--textDecoration);
+    text-decoration: var(--textDecoration);
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    scroll-behavior: smooth;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body ::selection {
+    color: var(--selectionTextColor);
+    background-color: var(--selectionBackgroundColor);
+}
