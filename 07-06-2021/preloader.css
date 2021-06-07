@@ -1,0 +1,41 @@
+.preloader-plus.complete {
+    opacity: 0;
+    transform: translateY(-0) scale(1.5);
+    transition-delay: 0s,0s,1000ms;
+}
+.preloader-plus.complete {
+    left: 1000%;
+}
+body.complete > *:not(.preloader-plus), .preloader-plus {
+    transition-duration: 1000ms,1000ms,0s;
+}
+.preloader-plus {
+    background-color: #e9e9e9;
+}
+.preloader-plus {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    background-color: #fff;
+    z-index: 999;
+    transform: scale(1);
+    transition: opacity 1s ease,transform 1s ease,left 0s ease;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+media="(max-width: 999.98px)"
+[data-header*="type-1"] {
+    --headerHeight: 70px;
+    --headerStickyHeight: 0px;
+}
