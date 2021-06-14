@@ -1,0 +1,163 @@
+user agent stylesheet
+div {
+    display: block;
+}
+[data-prefix="single_page"] article[class*="post"] {
+    --has-boxed: var(--false);
+    --has-wide: var(--true);
+}
+[class*="ct-container"]>article {
+    --has-background: var(--has-boxed);
+    --has-boxed-structure: var(--has-boxed);
+    box-shadow: var(--has-boxed, var(--box-shadow));
+    border-radius: var(--has-boxed, var(--border-radius));
+    padding: var(--has-boxed, var(--boxed-content-spacing));
+    margin-left: var(--has-boxed-structure, auto);
+    margin-right: var(--has-boxed-structure, auto);
+    width: var(--has-boxed-structure, var(--container-width));
+    max-width: var(--has-boxed-structure, var(--boxed-content-max-width));
+}
+[data-content="normal"]>article {
+    --block-width: var(--has-wide, var(--container-width));
+    --block-max-width: var(--has-wide, var(--container-max-width));
+    --block-wide-max-width: var(--has-wide, calc(var(--container-max-width) + var(--wide-offset) * 2));
+    --boxed-content-max-width: var(--container-max-width);
+}
+body, .ct-panel, .ct-footer, [data-row], [data-row*="boxed"]>div, [data-block], .ct-floating-bar, .ct-account-form, .ct-trending-block, .ct-panel>section, .footer-widgets-area, .ct-comments-container, .ct-shortcuts-container, .ct-related-posts-container, .hero-section[data-type='type-2'], [class*="ct-container"]>article, [class*='ct-mega-menu']>.sub-menu, [class*="tutor-course"] .tutor-col-8 {
+    background-color: var(--has-background, var(--background-color));
+    background-image: var(--has-background, var(--overlay-color, none), var(--background-image));
+    background-size: var(--has-background, var(--background-size));
+    background-repeat: var(--has-background, var(--background-repeat));
+    background-position: var(--has-background, var(--background-position));
+    background-attachment: var(--has-background, var(--background-attachment));
+    --overlay-color: linear-gradient(var(--overlay), var(--overlay));
+}
+[data-header*="type-1"] {
+    --headerHeight: 80px;
+    --headerStickyHeight: 0px;
+}
+[data-header*='sticky'] {
+    --scroll-margin-top-offset: calc( ( var(--headerStickyHeight, var(--headerHeight, 0px)) * var(--has-transparent-header) * (var(--stickyShrink, 100) / 100) ) + var(--headerStickyHeight, var(--headerHeight, 0px)) * (1 - var(--has-transparent-header)) );
+}
+body {
+    --background-image: none;
+    --background-color: #e3e3e3;
+}
+body {
+    color: var(--color);
+}
+body, p, h1, h2, h3, h4, h5, h6, em, ol, ul, li, tr, th, td, dl, img, ins, sub, sup, big, cite, code, form, small, label, table, figure, button, legend, strike, address, caption, fieldset, blockquote {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: inherit;
+    text-align: inherit;
+    line-height: inherit;
+}
+body {
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+:root {
+    --fontFamily: Roboto, Sans-Serif;
+    --fontWeight: 400;
+    --textTransform: capitalize;
+    --textDecoration: none;
+    --fontSize: 17px;
+    --lineHeight: 1.65;
+    --letterSpacing: 0em;
+    --buttonFontFamily: Roboto, Sans-Serif;
+    --buttonFontWeight: 500;
+    --buttonFontSize: 15px;
+    --star-rating-initial-color: #b89f5d;
+    --star-rating-inactive-color: #f6f6f8;
+    --badge-text-color: #f6f6f8;
+    --badge-background-color: #b89f5d;
+    --has-classic-forms: var(--false);
+    --has-modern-forms: var(--true);
+    --form-text-initial-color: var(--paletteColor3);
+    --form-text-focus-color: var(--paletteColor3);
+    --form-field-border-initial-color: #f6f6f8;
+    --form-field-border-focus-color: #b89f5d;
+    --form-field-border-width: 0 0 2px 0;
+    --form-selection-control-border-width: 2px;
+    --form-selection-control-initial-color: var(--border-color);
+    --form-selection-control-accent-color: var(--paletteColor1);
+    --paletteColor1: #ffcd05;
+    --paletteColor2: #fcb424;
+    --paletteColor3: #504e4a;
+    --paletteColor4: #0a0500;
+    --paletteColor5: #edeff2;
+    --paletteColor6: #f9fafb;
+    --paletteColor7: #FDFDFD;
+    --paletteColor8: #ffffff;
+    --color: var(--paletteColor3);
+    --linkInitialColor: #c60021;
+    --linkHoverColor: #90031a;
+    --selectionTextColor: #f6f6f8;
+    --selectionBackgroundColor: #c60021;
+    --border-color: var(--paletteColor5);
+    --headings-color: #c60021;
+    --contentSpacing: 1.5em;
+    --buttonMinHeight: 40px;
+    --buttonTextInitialColor: #f6f6f8;
+    --buttonTextHoverColor: #f6f6f8;
+    --buttonInitialColor: var(--paletteColor3);
+    --buttonHoverColor: #b89f5d;
+    --button-border: none;
+    --buttonBorderRadius: 3px;
+    --container-max-width: 1900px;
+    --content-vertical-spacing: 60px;
+    --narrow-container-max-width: 750px;
+Show All Properties (1 more)
+}
+@media (min-width: 690px)
+:root {
+    --container-width-base: calc(90vw - var(--frame-size, 0px) * 2);
+}
+:root {
+    --default-editor: var(--true);
+    --border: none;
+    --transition: all 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    --listIndent: 2.5em;
+    --listItemSpacing: 0.3em;
+    --true: initial;
+    --false: "";
+    --has-background: var(--true);
+    --has-link-decoration: var(--true);
+    --has-transparent-header: 0;
+    --container-width: min(100%, var(--container-width-base));
+}
+html, h1, h2, h3, h4, h5, h6, pre, kbd, code, samp, label, figcaption, blockquote, blockquote p, .price, .menu a, .ct-label, .site-title, .entry-meta, .widget-title, .contact-info, .ct-item-title, .ct-menu-badge, .entry-excerpt, .ct-post-title, .ct-breadcrumbs, .ct-header-text, .site-description, .page-description, .mobile-menu ul a, .comment-reply-title, .ct-footer-copyright, .ct-language-switcher, .entry-summary .price, .woocommerce-tabs .tabs, .ct-shortcuts-container, .ct-language-switcher ul[data-placement], .ct-widget>*:not(.widget-title) {
+    font-family: var(--fontFamily);
+    font-size: var(--fontSize);
+    font-weight: var(--fontWeight);
+    font-style: var(--fontStyle, inherit);
+    line-height: var(--lineHeight);
+    letter-spacing: var(--letterSpacing);
+    text-transform: var(--textTransform);
+    -webkit-text-decoration: var(--textDecoration);
+    text-decoration: var(--textDecoration);
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    scroll-behavior: smooth;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.entry-content:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body ::selection {
+    color: var(--selectionTextColor);
+    background-color: var(--selectionBackgroundColor);
+}
